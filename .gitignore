@@ -18,3 +18,5 @@ build/
 ### Allure ##3
 .allure
 /out/
+/.idea/
+/gradle/
