@@ -49,7 +49,7 @@
 
 Удаленный запуск с использованием Jenkins+Selinoid(требуется логин и пароль):
 ```sh  
-'gradle clean test texno_diasoft -DremoteUrl=https://userLogo:userPassword@selenoid.autotests.cloud/wd/hub'
+'gradle clean test -DremoteUrl=https://userLogo:userPassword@selenoid.autotests.cloud/wd/hub'
 ```
 
 ## <img alt="Allure" height="25" src="images/logo/Allure.svg" width="25"/></a>  <a name="Allure"></a>Allure Report	</a>
