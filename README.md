@@ -40,8 +40,9 @@
 ## :ballot_box_with_check: Параметры сборки в Jenkins:
 
 - browser (браузер, по умолчанию chrome)
-- browserVersion (версия браузера, по умолчанию 100.0)
+- browserVersion (версия браузера, по умолчанию 148)
 - browserSize (размер окна браузера, по умолчанию 1920x1080)
+- environment DEV
 
 
 ## Команда для запуска из терминала
