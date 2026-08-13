@@ -63,8 +63,7 @@
 ## Тест-кейсы
 
 <p align="center">  
-<img title="Allure Tests" src="images/screen/AR2.png" width="850">  
-<img title="Allure Graphics" src="images/screen/AR3.png" width="850">  
+<img title="Allure Tests" src="images/screen/Allure-testCases" width="850">  
 </p>
 
 
