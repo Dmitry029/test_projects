@@ -57,7 +57,7 @@
 ## Основная страница отчёта
 
 <p align="center">  
-<img title="Allure Overview Dashboard" src="images/screen/AR1.png" width="850">  
+<img title="Allure Overview Dashboard" src="images/screen/Allure.png" width="850">  
 </p>  
 
 ## Тест-кейсы
