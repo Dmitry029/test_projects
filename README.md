@@ -45,9 +45,8 @@
 - environment DEV
 
 
-## Команда для запуска из терминала в Selenoid (remote)
-
-Удаленный запуск с использованием Jenkins+Selinoid(требуется логин и пароль):
+## Команда для запуска из терминала
+Удаленный запуск в Selenoid (remote). Требуется логин и пароль:
 ```sh  
 'gradle clean test -DremoteUrl=https://userLogo:userPassword@selenoid.autotests.cloud/wd/hub'
 ```
