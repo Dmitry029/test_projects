@@ -29,7 +29,7 @@
 - Проверка текста заголовка страницы вакансий
 - Проверка того, что вакансия AQA (Java) Engineer актуальна
 
-## <img alt="Jenkins" height="25" src="images/logo/Jenkins.svg" width="25"/> Сборка в [Jenkins](https://jenkins.autotests.cloud/job/Students/job/18-lom14-betcity/)
+## <img alt="Jenkins" height="25" src="images/logo/Jenkins.svg" width="25"/> Сборка в [Jenkins](https://jenkins.qa.guru/job/kdp029_for_search_job/)
 
 
 <p align="center">  
@@ -40,15 +40,15 @@
 ## :ballot_box_with_check: Параметры сборки в Jenkins:
 
 - browser (браузер, по умолчанию chrome)
-- browserVersion (версия браузера, по умолчанию 100.0)
+- browserVersion (версия браузера, по умолчанию 148)
 - browserSize (размер окна браузера, по умолчанию 1920x1080)
+- environment DEV
 
 
 ## Команда для запуска из терминала
-
-Удаленный запуск с использованием Jenkins+Selinoid(требуется логин и пароль):
+Удаленный запуск в Selenoid (remote). Требуется логин и пароль:
 ```sh  
-'gradle clean test -Denv=remote'
+'gradle clean test -DremoteUrl=https://userLogo:userPassword@selenoid.autotests.cloud/wd/hub'
 ```
 
 ## <img alt="Allure" height="25" src="images/logo/Allure.svg" width="25"/></a>  <a name="Allure"></a>Allure Report	</a>
@@ -57,7 +57,7 @@
 ## Основная страница отчёта
 
 <p align="center">  
-<img title="Allure Overview Dashboard" src="images/screen/AR1.png" width="850">  
+<img title="Allure Overview Dashboard" src="images/screen/Allure.png" width="850">  
 </p>  
 
 ## Тест-кейсы
