@@ -29,7 +29,7 @@
 - Проверка текста заголовка страницы вакансий
 - Проверка того, что вакансия AQA (Java) Engineer актуальна
 
-## <img alt="Jenkins" height="25" src="images/logo/Jenkins.svg" width="25"/> Сборка в [Jenkins](https://jenkins.autotests.cloud/job/Students/job/18-lom14-betcity/)
+## <img alt="Jenkins" height="25" src="images/logo/Jenkins.svg" width="25"/> Сборка в [Jenkins](https://jenkins.qa.guru/job/kdp029_for_search_job/)
 
 
 <p align="center">  
