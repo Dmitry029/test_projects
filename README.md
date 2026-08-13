@@ -73,14 +73,13 @@
 ## Allure TestOps Dashboard
 
 <p align="center">  
-<img title="Allure TestOps Dashboard" src="images/screen/ATO5.png" width="850">  
+<img title="Allure TestOps Dashboard" src="images/screen/Dashboards.png" width="850">  
 </p>  
 
 ## Авто и Ручные тест-кейсы
 
 <p align="center">  
-<img title="Allure Tests" src="images/screen/ATO3.png" width="850">  
-<img title="Allure Tests" src="images/screen/ATO6.png" width="850">  
+<img title="Allure Tests" src="images/screen/TestOps-testCases.png" width="850">  
 
 </p>
 
