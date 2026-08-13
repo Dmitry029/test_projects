@@ -1,5 +1,5 @@
 
-<h1 >Проект по автоматизации тестирования сайта <a href="https://modsen.by/ "> МОДСЕН</a></h1>
+<h1 >Проект по автоматизации тестирования сайта компании<a href="https://modsen.by/ "> МОДСЕН</a></h1>
 
 ## ☑️ Содержание:
 
@@ -23,11 +23,11 @@
 <a id="cases"></a>
 ## :ballot_box_with_check: Реализованные проверки:
 
-- Параметризованный тест смены языка на русский, английский
-- Авторизация через номер телефона и номер счета
-- Заключение пари при недостаточном балансе для ставок Simple, System, Exspress
-- Cодержания заголовка главной страницы
-- Наличия ссылки на телеграмм бот
+- Проверка названий кнопок в header
+- Проверка текста заголовка главной страницы
+- Проверка названий параграфов главной страницы
+- Проверка текста заголовка страницы вакансий
+- Проверка того, что вакансия AQA (Java) Engineer актуальна
 
 ## <img alt="Jenkins" height="25" src="images/logo/Jenkins.svg" width="25"/> Сборка в [Jenkins](https://jenkins.autotests.cloud/job/Students/job/18-lom14-betcity/)
 
@@ -47,8 +47,8 @@
 ## Команда для запуска из терминала
 
 Удаленный запуск с использованием Jenkins+Selinoid(требуется логин и пароль):
-```bash  
-gradle clean test -Denv=remote
+```sh  
+'gradle clean test -Denv=remote'
 ```
 
 ## <img alt="Allure" height="25" src="images/logo/Allure.svg" width="25"/></a>  <a name="Allure"></a>Allure Report	</a>
