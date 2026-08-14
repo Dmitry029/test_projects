@@ -1,4 +1,4 @@
-
+<a id="readme-top"></a>
 <h1 >Проект по автоматизации тестирования сайта компании<a href="https://modsen.by/ "> МОДСЕН</a></h1>
 
 ## ☑️ Содержание:
@@ -21,6 +21,10 @@
 |:----------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------:|
 | <a href="https://www.java.com/"><img src="images/logo/Java.svg" width="50" height="50"  alt="Java"/></a>  | <a href="https://www.jetbrains.com/idea/"><img src="images/logo/Idea.svg" width="50" height="50"  alt="IDEA"/></a> | <a href="https://github.com/"><img src="images/logo/GitHub.svg" width="50" height="50"  alt="Github"/></a> | <a href="https://junit.org/junit5/"><img src="images/logo/Junit5.svg" width="50" height="50"  alt="JUnit 5"/></a> | <a href="https://gradle.org/"><img src="images/logo/Gradle.svg" width="50" height="50"  alt="Gradle"/></a> | <a href="https://selenide.org/"><img src="images/logo/Selenide.svg" width="50" height="50"  alt="Selenide"/></a> | <a href="https://aerokube.com/selenoid/"><img src="images/logo/Selenoid.svg" width="50" height="50"  alt="Selenoid"/></a> | <a href="https://github.com/allure-framework"><img src="images/logo/Allure.svg" width="50" height="50"  alt="Allure"/></a> |<a href="https://www.jenkins.io/"><img src="images/logo/Jenkins.svg" width="50" height="50"  alt="Jenkins"/></a> | <a href="https://www.atlassian.com/software/jira/"><img src="images/logo/Jira.svg" width="50" height="50" alt="Java" title="Java"/></a> | <a href="https://web.telegram.org/"><img src="images\logo\Telegram.svg" width="50" height="50" alt="Telegram"/></a> |<a href="https://qameta.io/"><img src="images\logo\Allure_TO.svg" width="50" height="50" alt="Allure_TO"/></a> |
 
+Тесты в данном проекте написаны на языке <code>Java</code> с использованием фреймворка для тестирования [Selenide](https://selenide.org/), сборщик - <code>Gradle</code>. <code>JUnit 5</code> задействован в качестве фреймворка модульного тестирования.
+При прогоне тестов для запуска браузеров используется [Selenoid](https://aerokube.com/selenoid/).
+Для удаленного запуска реализована джоба в <code>Jenkins</code> с формированием Allure-отчета и отправкой результатов в <code>Telegram</code> при помощи бота. Так же реализована интеграция с <code>Allure TestOps</code> и <code>Jira</code>.
+
 <a id="cases"></a>
 ## :ballot_box_with_check: Реализованные проверки:
 
@@ -30,13 +34,16 @@
 - Проверка текста заголовка страницы вакансий
 - Проверка того, что вакансия AQA (Java) Engineer актуальна
 
+<p align="right">
+<a href="#readme-top"> back to top</a>
+</p>
+
 ## <img alt="Jenkins" height="25" src="images/logo/Jenkins.svg" width="25"/> Сборка в [Jenkins](https://jenkins.qa.guru/job/kdp029_for_search_job/)
 
 
 <p align="center">  
 <img src="images/screen/jenkins.png" alt="Jenkins" width="950"/></a>  
 </p>
-
 
 ## :ballot_box_with_check: Параметры сборки в Jenkins:
 
@@ -45,12 +52,18 @@
 - browserSize (размер окна браузера, по умолчанию 1920x1080)
 - environment DEV
 
+<p align="right">
+<a href="#readme-top"> back to top</a>
+</p>
 
 ## Команда для запуска из терминала
 Удаленный запуск в Selenoid (remote). Требуется логин и пароль:
 ```sh  
 'gradle clean test -DremoteUrl=https://userLogo:userPassword@selenoid.autotests.cloud/wd/hub'
 ```
+<p align="right">
+<a href="#readme-top"> back to top</a>
+</p>
 
 ## <img alt="Allure" height="25" src="images/logo/Allure.svg" width="25"/></a>  <a name="Allure"></a>Allure Report	</a>
 
@@ -67,9 +80,11 @@
 <img title="Allure Tests" src="images/screen/Allure-testCases.png" width="850">  
 </p>
 
+<p align="right">
+<a href="#readme-top"> back to top</a>
+</p>
 
 ## <img alt="Allure_TO" height="25" src="images/logo/Allure_TO.svg" width="25"/> </a>Интеграция с Allure TestOps</a>
-
 
 ## Allure TestOps Dashboard
 
@@ -81,7 +96,10 @@
 
 <p align="center">  
 <img title="Allure Tests" src="images/screen/TestOps-testCases.png" width="850">  
+</p>
 
+<p align="right">
+<a href="#readme-top"> back to top</a>
 </p>
 
 ## <img alt="Allure" height="25" src="images/logo/Jira.svg" width="25"/></a> Интеграция с <a target="_blank" href="https://jira.autotests.cloud/browse/HOMEWORK-689">Jira</a>
@@ -91,6 +109,10 @@
 <img title="Jira" src="images/screen/Jira2.png" width="">  
 </p>
 
+<p align="right">
+<a href="#readme-top"> back to top</a>
+</p>
+
 ____
 ## <img alt="Allure" height="25" src="images/logo/Telegram.svg" width="25"/></a> Уведомление в Telegram при помощи бота
 ____
@@ -98,3 +120,6 @@ ____
 <img title="Allure Overview Dashboard" src="images/screen/Telegram.png" width="550">  
 </p>
 
+<p align="right">
+<a href="#readme-top"> back to top</a>
+</p>
