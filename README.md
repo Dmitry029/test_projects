@@ -34,8 +34,9 @@
 - Проверка текста заголовка страницы вакансий
 - Проверка того, что вакансия AQA (Java) Engineer актуальна
 
-
+<p align="right">
 <a href="#readme-top"> back to top</a>
+</p>
 
 ## <img alt="Jenkins" height="25" src="images/logo/Jenkins.svg" width="25"/> Сборка в [Jenkins](https://jenkins.qa.guru/job/kdp029_for_search_job/)
 
