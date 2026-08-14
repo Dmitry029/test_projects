@@ -10,7 +10,8 @@
 - Интеграция с Allure TestOps
 - Интеграция с Atlassian Jira
 - Уведомление в Telegram о результатах прогона тестов
-- 
+
+ 
 
 
 <a id="tools"></a>
