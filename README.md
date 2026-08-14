@@ -45,7 +45,6 @@
 <img src="images/screen/jenkins.png" alt="Jenkins" width="950"/></a>  
 </p>
 
-
 ## :ballot_box_with_check: Параметры сборки в Jenkins:
 
 - browser (браузер, по умолчанию chrome)
@@ -53,12 +52,18 @@
 - browserSize (размер окна браузера, по умолчанию 1920x1080)
 - environment DEV
 
+<p align="right">
+<a href="#readme-top"> back to top</a>
+</p>
 
 ## Команда для запуска из терминала
 Удаленный запуск в Selenoid (remote). Требуется логин и пароль:
 ```sh  
 'gradle clean test -DremoteUrl=https://userLogo:userPassword@selenoid.autotests.cloud/wd/hub'
 ```
+<p align="right">
+<a href="#readme-top"> back to top</a>
+</p>
 
 ## <img alt="Allure" height="25" src="images/logo/Allure.svg" width="25"/></a>  <a name="Allure"></a>Allure Report	</a>
 
@@ -75,9 +80,15 @@
 <img title="Allure Tests" src="images/screen/Allure-testCases.png" width="850">  
 </p>
 
+<p align="right">
+<a href="#readme-top"> back to top</a>
+</p>
 
 ## <img alt="Allure_TO" height="25" src="images/logo/Allure_TO.svg" width="25"/> </a>Интеграция с Allure TestOps</a>
 
+<p align="right">
+<a href="#readme-top"> back to top</a>
+</p>
 
 ## Allure TestOps Dashboard
 
@@ -85,11 +96,18 @@
 <img title="Allure TestOps Dashboard" src="images/screen/Dashboards.png" width="850">  
 </p>  
 
+<p align="right">
+<a href="#readme-top"> back to top</a>
+</p>
+
 ## Авто и Ручные тест-кейсы
 
 <p align="center">  
 <img title="Allure Tests" src="images/screen/TestOps-testCases.png" width="850">  
+</p>
 
+<p align="right">
+<a href="#readme-top"> back to top</a>
 </p>
 
 ## <img alt="Allure" height="25" src="images/logo/Jira.svg" width="25"/></a> Интеграция с <a target="_blank" href="https://jira.autotests.cloud/browse/HOMEWORK-689">Jira</a>
@@ -97,6 +115,10 @@
 <p align="center">  
 <img title="Jira" src="images/screen/Jira1.png" width=""> 
 <img title="Jira" src="images/screen/Jira2.png" width="">  
+</p>
+
+<p align="right">
+<a href="#readme-top"> back to top</a>
 </p>
 
 ____
