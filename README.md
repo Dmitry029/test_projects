@@ -86,19 +86,11 @@
 
 ## <img alt="Allure_TO" height="25" src="images/logo/Allure_TO.svg" width="25"/> </a>Интеграция с Allure TestOps</a>
 
-<p align="right">
-<a href="#readme-top"> back to top</a>
-</p>
-
 ## Allure TestOps Dashboard
 
 <p align="center">  
 <img title="Allure TestOps Dashboard" src="images/screen/Dashboards.png" width="850">  
 </p>  
-
-<p align="right">
-<a href="#readme-top"> back to top</a>
-</p>
 
 ## Авто и Ручные тест-кейсы
 
@@ -128,3 +120,6 @@ ____
 <img title="Allure Overview Dashboard" src="images/screen/Telegram.png" width="550">  
 </p>
 
+<p align="right">
+<a href="#readme-top"> back to top</a>
+</p>
