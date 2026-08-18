@@ -11,7 +11,7 @@ import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.remote.DesiredCapabilities;
-import pages.Header;
+import pages.components.Header;
 import pages.MainPage;
 import pages.VacanciesPage;
 import tests.testdata.TestData;
@@ -37,7 +37,7 @@ public class BaseTest {
         }
         Configuration.browser = System.getProperty("browser", "chrome");
         Configuration.browserVersion = System.getProperty("browserVersion", "");
-        //Configuration.browserSize = System.getProperty("browserSize", "1920x1080");
+        Configuration.browserSize = System.getProperty("browserSize", "1920x1080");
         Configuration.headless = Boolean.parseBoolean(System.getProperty("headless", "false"));
 
         DesiredCapabilities capabilities = new DesiredCapabilities();

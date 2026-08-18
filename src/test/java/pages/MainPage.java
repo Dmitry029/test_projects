@@ -16,7 +16,7 @@ public class MainPage {
     private final ElementsCollection sections = $$("h2");
 
     public void openPage() {
-        open("/");
+        open("");
         pageLogo.shouldBe(visible);
     }
 
